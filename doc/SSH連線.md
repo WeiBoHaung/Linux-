@@ -1,4 +1,5 @@
 # SSH連線筆記
+###### tags: `Linux學習` `SSH`
 ## 為什麼ssh比telnet還安全？何謂ssh key？
 telnet和ssh是同類型的東西。差別在於，ssh的連線通道是經過加密。ssh使用所謂的public 和 private key的Architecture來做連線通道的加解密。
 
