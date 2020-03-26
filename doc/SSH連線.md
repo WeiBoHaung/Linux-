@@ -40,7 +40,8 @@ private key - 檔名 預設是id_rsa
     通常ssh key的檔名前面的部分會是：id_rsa，而在點的後面則會是這個ssh key的用途。因此，假設今天我要建立的ssh key是給Google Cloud Platform用的，我的檔名會變成： id_rsa.gcp。
 
     有了這個概念之後，可以用下列指令來建立Google Cloud Platform要用的ssh key：
-    `ssh-keygen -f id_rsa.gcp -C "weibohuang@github.com"`
+    
+        ssh-keygen -f id_rsa.gcp -C "weibohuang@github.com"
     
     將會產生以下的兩個檔案：
         1. id_rsa.gcp
