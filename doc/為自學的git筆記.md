@@ -1,4 +1,5 @@
 # 為自己學的git操作筆記
+###### tags: `Linux-System-core-design` `git`
 
 1. 建立Github帳號
 
@@ -30,13 +31,13 @@
     
     `Enter file in which to save the key (/Users/[you pc]/.ssh/id_rsa): [Press enter]`
     
-    直接按enter就好。 預設是/Users/[you pc]/.ssh/id_rsa產生。
+    直接按enter就好。 預設是/Users/[you pc]/.ssh/id_rsa.pub產生。
     
     `Enter passphrase (empty for no passphrase): [Type a passphrase]`
     `Enter same passphrase again: [Type passphrase again]`
     
     輸入一個 passphrase，如不想輸入直接按下 Enter 鍵即可。
-    這樣就完成了，接著輸入sudo cat ~/.ssh/id_rsa
+    這樣就完成了，接著輸入sudo cat ~/.ssh/id_rsa.pub
     ![](https://i.imgur.com/gJ1ya1f.png)
     將這段複製起來
 
